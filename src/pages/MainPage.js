@@ -1,3 +1,4 @@
+import TopoMap from "../components/map/TopoMap";
 import SideBar from "../components/sidebar/SideBar";
 import "./MainPage.css";
 
@@ -8,6 +9,7 @@ function MainPage() {
         <SideBar/>
       </div>
       <div className="main-page-map-body">
+        <TopoMap/>
       </div>
     </div>
   );
