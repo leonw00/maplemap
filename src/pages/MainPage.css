@@ -1,0 +1,15 @@
+.main-page{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: rgb(228, 226, 226);
+}
+
+.main-page-side-bar{
+    flex: 1;
+}
+
+.main-page-map-body{
+    flex: 3;
+}
+

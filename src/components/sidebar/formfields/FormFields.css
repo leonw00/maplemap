@@ -1,0 +1,25 @@
+/********************/
+/***** Slidebar *****/
+/********************/
+
+.field-slidebar {
+  background-color: green;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.slidebar-title {
+  font-size: 1.1rem;
+  margin: 5px 30px;
+}
+
+.slidebar-slider-area {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}

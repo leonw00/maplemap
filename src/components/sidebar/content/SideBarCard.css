@@ -1,0 +1,27 @@
+.side-bar-card {
+  text-decoration: none;
+  background-color: red;
+  min-height: 70px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-header {
+  font-size: 1.6rem;
+  min-height: 70px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card-logo {
+  width: 25px;
+  color: black;
+  margin-left: 25px;
+  margin-right: 20px;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  color: black;
+}
