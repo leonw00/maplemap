@@ -9,8 +9,8 @@ function TopoMap() {
   return (
     <div className="map-area">
       <CanadaMap
-        width="900px"
-        height="700px"
+        width="90%"
+        height="90%"
         fillColor="ForestGreen"
         onHoverColor="Gold"
         onClick={mapClickHandler}

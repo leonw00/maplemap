@@ -1,3 +1,4 @@
+import { faLeaf } from "@fortawesome/free-solid-svg-icons";
 import SideBarList from "./content/SideBarList";
 import "./SideBar.css";
 

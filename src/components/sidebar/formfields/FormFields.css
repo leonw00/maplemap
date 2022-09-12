@@ -1,9 +1,13 @@
+:root {
+  --form-background-color: green;
+}
+
 /********************/
 /***** Slidebar *****/
 /********************/
 
 .field-slidebar {
-  background-color: green;
+  background-color: var(--form-background-color);
   min-height: 70px;
   display: flex;
   flex-direction: column;
@@ -22,4 +26,36 @@
   justify-content: center;
   align-items: center;
   position: relative;
+}
+
+/*************************/
+/***** Toggle Switch *****/
+/*************************/
+
+.form-field-toggle-switch {
+  background-color: var(--form-background-color);
+  min-height: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+/***********************/
+/***** Radio Label *****/
+/***********************/
+
+.form-field-radio-label {
+  background-color: var(--form-background-color);
+  min-height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-label-title{
+  font-size: 1.1rem;
+  margin: 5px 30px;
+}
+
+.radio-button{
+  margin: 5px 25px;
 }

@@ -1,7 +1,7 @@
 import React, { useCallback, useEffect, useState, useRef } from "react";
 import PropTypes from "prop-types";
 import "./FormFields.css";
-import "./Slider.css";
+import "./fieldcss/Slider.css";
 
 const Slidebar = ({ min, max, onChange, title}) => {
   const [minVal, setMinVal] = useState(min);
