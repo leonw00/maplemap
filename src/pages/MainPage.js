@@ -6,10 +6,10 @@ function MainPage() {
   return (
     <div className="main-page">
       <div className="main-page-side-bar">
-        <SideBar/>
+          <SideBar />
       </div>
       <div className="main-page-map-body">
-        <TopoMap/>
+        <TopoMap />
       </div>
     </div>
   );

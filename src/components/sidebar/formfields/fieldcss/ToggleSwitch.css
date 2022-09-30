@@ -1,6 +1,7 @@
 .toggle {
   cursor: pointer;
   display: inline-block;
+  position: relative;
 }
 
 .toggle-switch {

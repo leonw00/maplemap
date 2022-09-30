@@ -3,6 +3,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 300;
 }
 
 /*************************/
@@ -13,26 +15,39 @@
   flex: 5;
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 340px;
   height: 500px;
   border-radius: 15px;
   margin: 15px 20px;
 
   background-color: rgba(255, 255, 255, 0.2);
-  box-shadow: 0 8px 32px 0 rgba(44, 44, 45, 0.37);
+  box-shadow: 0 4px 12px 0 rgba(44, 44, 45, 0.37);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
-.side-bar-logo {
+.side-bar-head {
   flex: 1;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  font-size: 2.2rem;
+}
+
+.side-bar-title {
+  font-size: 2.4rem;
   margin-left: 30px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+/* The Maple Logo */
+.side-bar-logo {
+  font-size: 2.4rem;
+  margin-left: 13px;
+  width: 45px;
+  height: 45px;
 }
 
 .side-bar-list {
@@ -40,6 +55,7 @@
   height: 100%;
   overflow-y: scroll;
   overflow-x: hidden;
+  scrollbar-width: thin;
   border-radius: 0px 0px 10px 10px;
 }
 
