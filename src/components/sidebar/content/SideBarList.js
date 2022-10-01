@@ -16,8 +16,8 @@ function SideBarList() {
       <SideBarCard title="Living Cost" icon={faDollarSign}>
         <RadioLabel title="Buy or Rent" label1="Buy" label2="Rent" />
         <Slidebar
-          min={131}
-          max={160000}
+          min={13100}
+          max={1600000}
           title="Typical Home Price"
           onChange={({ min, max }) => console.log(`min = ${min}, max = ${max}`)}
         />

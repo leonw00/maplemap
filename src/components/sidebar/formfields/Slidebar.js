@@ -2,8 +2,9 @@ import React, { useCallback, useEffect, useState, useRef } from "react";
 import PropTypes from "prop-types";
 import "./FormFields.css";
 import "./fieldcss/Slider.css";
+import { nominalToCurr, nominalToWord } from "../../../helper/helper";
 
-const Slidebar = ({ min, max, onChange, title}) => {
+const Slidebar = ({ min, max, onChange, title, isCurrency = false}) => {
   const [minVal, setMinVal] = useState(min);
   const [maxVal, setMaxVal] = useState(max);
   const minValRef = useRef(min);
@@ -35,6 +36,7 @@ const Slidebar = ({ min, max, onChange, title}) => {
     if (range.current) {
       range.current.style.width = `${maxPercent - minPercent}%`;
     }
+
   }, [maxVal, getPercent]);
 
   // Get min and max values when their state changes
@@ -76,8 +78,8 @@ const Slidebar = ({ min, max, onChange, title}) => {
         <div className="slider">
           <div className="slider__track" />
           <div ref={range} className="slider__range" />
-          <div className="slider__left-value">{minVal}</div>
-          <div className="slider__right-value">{maxVal}</div>
+          <div className="slider__left-value">{nominalToWord(minVal)}</div>
+          <div className="slider__right-value">{nominalToWord(maxVal)}</div>
         </div>
       </div>
     </div>

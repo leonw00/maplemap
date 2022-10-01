@@ -1,5 +1,4 @@
 /* CSS for Dual Slider */
-
 .slider {
   position: relative;
   width: 200px;
@@ -32,12 +31,12 @@
 .slider__left-value,
 .slider__right-value {
   color: black;
-  font-size: 12px;
-  margin-top: -5px;
+  font-size: 0.9rem;
+  margin-top: -10px;
 }
 
 .slider__left-value {
-  left: -40px;
+  left: -45px;
 }
 
 .slider__right-value {
